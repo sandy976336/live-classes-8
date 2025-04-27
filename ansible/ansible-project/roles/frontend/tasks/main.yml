@@ -9,7 +9,7 @@
     dest: /etc/nginx/default.d/expense.conf
 
 - name: Import Application Common tasks
-  ansible.builtin.import_role:
+  ansible.builtin.include_role:
     name: common
     tasks_from: main.yml      
 
