@@ -37,6 +37,7 @@ output "z_x" {
 
 
 variable "env" {}
+variable "name" {}
 
 
 
