@@ -37,7 +37,7 @@ output "z_x" {
 
 
 variable "env" {
-    default = "dev"
+    default = "stage"
 }
 
 
