@@ -7,6 +7,7 @@ variable "x" {
 
 
 
+
 variable "y_list" {
    default = ["abc","cad",7]
 }
@@ -33,3 +34,14 @@ output "y_1" {
 output "z_x" {
     value = var.z_map["x"]
 }
+
+
+variable "env" {
+    default = "dev"
+}
+
+
+
+# 1. var.tf
+# 2. *.tfvars
+# 3. *.auto.tfvars
