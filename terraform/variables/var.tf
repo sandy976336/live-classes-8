@@ -36,9 +36,7 @@ output "z_x" {
 }
 
 
-variable "env" {
-    default = "stage"
-}
+variable "env" {}
 
 
 
