@@ -1,7 +1,7 @@
 module "demo" {
     source = "./my-first-module"
-    instance_type = "t2.micro"
-    Name = "devops"
+    instance_type = "t2.nano"
+    Name = "devops-test-env"
     terraform = "true"
 }
 
