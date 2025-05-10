@@ -49,3 +49,15 @@ ENTRYPOINT
 The
 ENTRYPOINT keyword is used strictly to run commands the
 moment the container initializes along with multiple arguments -- java app.jar --xms 20Gb
+
+
+
+===================================
+
+1. Dockerfile
+
+2. docker build . --tag   ---> This build or creates ur Docker Image
+
+3. docker run imagename ----> This will give ur image a life and start running the app u built as container
+
+========================
