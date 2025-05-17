@@ -60,3 +60,18 @@ spec:
           image: 'nginx:v1'
           ports:
             - containerPort: 80    
+
+namespace - > but an isolated place given to us or our apps in the cluster ( X and Y)
+
+===================================================
+
+kubectl --> command line for kubernetes
+
+Commands to connect to EKS
+1. ADD adminstrator role to the ec2 machine that u are trying to connect.
+
+2. aws configure and Create your AWS Access Keys.
+
+3. aws eks update-kubeconfig --name my-eks-cluster --region us-east-1
+
+====================================
